@@ -119,10 +119,10 @@
   </resheader>
   <data name="LHotkeys.Text" xml:space="preserve">
     <value>F1 - show this help
-F2 or Double-Click - rename selected item
+F2 or double-click - rename selected item
 Del - delete selected item(s)
 
-Ctrl + S - save current editing variable
+Ctrl + S - save current variable being edited
 Ctrl + I - import variable values
 Ctrl + E - export variable values</value>
   </data>

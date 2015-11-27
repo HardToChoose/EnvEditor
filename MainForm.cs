@@ -327,12 +327,25 @@ namespace EnvEditor
 
         private void RB_CheckedChanged(object sender, EventArgs e)
         {
-            if (RBSystem.Checked)
-                LoadVariableNames(EnvEditor.VariableType.System);
-            else
-                LoadVariableNames(EnvEditor.VariableType.User);
+            var radioButton = sender as RadioButton;
 
-            Variables.SelectedIndex = 0;
+            if (radioButton == null)
+                radioButton = RBUser.Checked ? RBUser : RBSystem;
+                
+            if (radioButton.Checked)
+            {
+                if (radioButton == RBSystem)
+                {
+                    currentVarType = EnvEditor.VariableType.System;
+                }
+                else if (radioButton == RBUser)
+                {
+                    currentVarType = EnvEditor.VariableType.User;
+                }
+
+                LoadVariableNames(currentVarType);
+                Variables.SelectedIndex = 0;
+            }
         }
 
         private void Variables_SelectedValueChanged(object sender, EventArgs e)

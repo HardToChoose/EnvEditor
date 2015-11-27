@@ -62,7 +62,7 @@
             // 
             // BUp
             // 
-            this.BUp.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.176471F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.BUp.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.BUp.Location = new System.Drawing.Point(527, 158);
             this.BUp.Name = "BUp";
             this.BUp.Size = new System.Drawing.Size(30, 34);
@@ -73,7 +73,7 @@
             // 
             // BDown
             // 
-            this.BDown.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.176471F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.BDown.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.BDown.Location = new System.Drawing.Point(527, 192);
             this.BDown.Name = "BDown";
             this.BDown.Size = new System.Drawing.Size(30, 34);
@@ -138,7 +138,7 @@
             // 
             // BEdit
             // 
-            this.BEdit.Font = new System.Drawing.Font("Times New Roman", 9.176471F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.BEdit.Font = new System.Drawing.Font("Segoe UI Symbol", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BEdit.Location = new System.Drawing.Point(527, 34);
             this.BEdit.Name = "BEdit";
             this.BEdit.Size = new System.Drawing.Size(30, 34);
@@ -149,7 +149,7 @@
             // 
             // BDelete
             // 
-            this.BDelete.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.882353F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.BDelete.Font = new System.Drawing.Font("Segoe UI Symbol", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BDelete.Location = new System.Drawing.Point(527, 72);
             this.BDelete.Name = "BDelete";
             this.BDelete.Size = new System.Drawing.Size(30, 34);
@@ -259,7 +259,7 @@
             this.CBUserOnly.Name = "CBUserOnly";
             this.CBUserOnly.Size = new System.Drawing.Size(118, 28);
             this.CBUserOnly.TabIndex = 18;
-            this.CBUserOnly.Text = "include only user\nvariables";
+            this.CBUserOnly.Text = "include user \nvariables only";
             this.CBUserOnly.UseVisualStyleBackColor = true;
             // 
             // Status

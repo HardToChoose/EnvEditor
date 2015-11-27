@@ -40,7 +40,7 @@
             this.GHotkeys.Controls.Add(this.LHotkeys);
             this.GHotkeys.Location = new System.Drawing.Point(10, 37);
             this.GHotkeys.Name = "GHotkeys";
-            this.GHotkeys.Size = new System.Drawing.Size(391, 151);
+            this.GHotkeys.Size = new System.Drawing.Size(314, 151);
             this.GHotkeys.TabIndex = 0;
             this.GHotkeys.TabStop = false;
             this.GHotkeys.Text = "Hotkeys";
@@ -51,7 +51,7 @@
             this.LHotkeys.Font = new System.Drawing.Font("Tahoma", 9.176471F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.LHotkeys.Location = new System.Drawing.Point(16, 25);
             this.LHotkeys.Name = "LHotkeys";
-            this.LHotkeys.Size = new System.Drawing.Size(249, 112);
+            this.LHotkeys.Size = new System.Drawing.Size(259, 112);
             this.LHotkeys.TabIndex = 0;
             this.LHotkeys.Text = resources.GetString("LHotkeys.Text");
             // 
@@ -69,7 +69,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(412, 198);
+            this.ClientSize = new System.Drawing.Size(334, 198);
             this.Controls.Add(this.Author);
             this.Controls.Add(this.GHotkeys);
             this.Font = new System.Drawing.Font("Verdana", 7.764706F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
